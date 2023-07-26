@@ -7,7 +7,7 @@ st.set_page_config(page_title="BPEI ChatBot")
 
 # Hugging Face Credentials
 with st.sidebar:
-    st.title('Let's Research! *powered by HuggingFace')
+    st.title("Let's Research! *powered by HuggingFace")
     if ('EMAIL' in st.secrets) and ('PASS' in st.secrets):
         st.success('HuggingFace Login credentials already provided!', icon='✅')
         hf_email = st.secrets['EMAIL']
